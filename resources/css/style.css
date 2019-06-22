@@ -99,3 +99,27 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin: 10px 30px 0px 0px;
+}
+
+.main-nav li a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 90%;
+}
+
