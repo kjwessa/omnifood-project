@@ -1,3 +1,7 @@
+/* ---------------------- */
+/* Document Setup */
+/* ---------------------- */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,25 +17,17 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+/* ---------------------- */
+/* Reusable Components */
+/* ---------------------- */
+
 .row {
     max-width: 1140px;
     margin: 0 auto;
 }
 
-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.32), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-}
+/* Headings */
 
-.hero-text-box {
-    position: absolute;
-    width: 1140px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 h1 {
     margin: 0px 0px 20px 0px;
@@ -43,6 +39,8 @@ h1 {
     word-spacing: 4px;
 }
 
+/* Buttons */
+
 .btn:link, 
 .btn:visited {
     display: inline-block;
@@ -50,6 +48,8 @@ h1 {
     font-weight: 300;
     text-decoration: none;
     border-radius: 200px;
+    transition: background-color 0.3s, border 0.3s, color 0.3s;
+    margin-right: 15px;
 }
 
 .btn-full:link,
@@ -72,11 +72,30 @@ h1 {
 
 .btn-full:hover,
 .btn-full:active {
-    border: 1px solid #cf6d17; 
+    border: 1px solid #cf6d17;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
     border: 1px solid #cf6d17; 
     color: #fff;
+}
+
+/* ---------------------- */
+/* Header */
+/* ---------------------- */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.32), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
