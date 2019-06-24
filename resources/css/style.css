@@ -178,7 +178,6 @@ header {
 .main-nav li {
     display: inline-block;
     margin: 10px 30px 0px 0px;
-
 }
 
 .main-nav li a:link,
@@ -198,4 +197,27 @@ header {
 }
 
 
+/* ---------------------- */
+/* Meals */
+/* ---------------------- */
 
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+}
+
+.meal-photo img {
+    width: 100%;
+    height: auto;
+}
