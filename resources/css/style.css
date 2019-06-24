@@ -64,6 +64,13 @@ h2:after {
     margin-top: 30px;
 }
 
+/* Icons */
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+
 
 /* Buttons */
 
@@ -106,6 +113,9 @@ h2:after {
     border: 1px solid #cf6d17;
     color: #fff;
 }
+
+
+
 
 /* ---------------------- */
 /* Header */
@@ -160,3 +170,6 @@ header {
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
 }
+
+
+
