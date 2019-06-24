@@ -38,10 +38,10 @@ section {
 
 
 h1,
-h2 {
+h2,
+h3 {
     font-weight: 300;
     text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
 h1 {
@@ -49,6 +49,7 @@ h1 {
     color: #fff;
     font-size: 240%;
     word-spacing: 4px;
+    letter-spacing: 1px;
 }
 
 h2 {
@@ -56,6 +57,7 @@ h2 {
     word-spacing: 2px;
     text-align: center;
     margin: 0px 0px 30px 0px;
+    letter-spacing: 1px;
 }
 
 h2:after {
@@ -68,11 +70,22 @@ h2:after {
     margin-top: 30px;
 }
 
-/* Icons */
+h3 {
+    font-size: 110%;
+    margin: 0px 0px 15px 0px;
+}
+
+/* Paragraphs */
+
 .long-copy {
     line-height: 145%;
     width: 70%;
     margin-left: 15%;
+}
+
+.box p {
+    font-size: 90%;
+    line-height: 145%;
 }
 
 
