@@ -303,3 +303,13 @@ header {
     width: auto;
     margin-right: 10px;
 }
+
+/* ---------------------- */
+/* We're In These Cities */
+/* ---------------------- */
+
+.box img {
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
