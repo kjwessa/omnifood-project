@@ -121,6 +121,24 @@ h3 {
     margin-right: 5px;
 }
 
+/* Generic Links */
+
+a:link,
+a:visited {
+    color: #e67e22;
+    text-decoration: none;
+    border-bottom: 1px solid #e67e22;
+    padding-bottom: 2px;
+    transition: border-bottom .3s, color 0.3s;
+}
+
+a:hover,
+a:active {
+    color: #555;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 2px;
+}
 
 /* Buttons */
 
@@ -308,6 +326,11 @@ header {
     float: left;
     font-size: 150%;
     margin-right: 25px;
+}
+
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
 }
 
 .btn-app img {
