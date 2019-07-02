@@ -365,3 +365,35 @@ header {
     color: #fff;
     background-attachment: fixed;
 }
+
+blockquote {
+    font-style: italic;
+    padding: 2%;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+blockquote:before {
+    content: "\201c";
+    font-size: 450%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+cite img {
+    height: 45px;
+    width: auto;
+    border-radius: 50%;
+    border: 2px solid #e67e22;
+    margin-right: 25px;
+    vertical-align: middle;
+}
