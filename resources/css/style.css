@@ -411,6 +411,12 @@ cite img {
     border-radius: 5px;
     width: 90%;
     margin-left: 5%;
+    box-shadow: 0 2px 5px #e5e5e5;
+}
+
+.plan-box:hover {
+    content: " ";
+    box-shadow: 0 2px 10px #e5e5e5;
 }
 
 .plan-box div {
@@ -437,5 +443,17 @@ cite img {
 .plan-box ul {
     list-style: none;
 }
+
+.plan-box div:first-child {
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.plan-box div:last-child {
+    text-align: center;
+    border-bottom: 0;
+}
+
 
 
