@@ -489,7 +489,9 @@ input[type=checkbox] {
 }
 
 /* a new class to remove the focus on the elements when clicking on a section */
-*:focus {outline: none;}
+*:focus {
+    outline: none;
+}
 
 /* ---------------------- */
 /* Footer */
@@ -511,20 +513,20 @@ footer {
     float: right;
 }
 
-.footer-nav li, 
+.footer-nav li,
 .social-links li {
     display: inline-block;
     margin-right: 20px;
 }
 
-.footer-nav li:last-child, 
+.footer-nav li:last-child,
 .social-links li:last-child {
     margin-right: 0;
 }
 
 .footer-nav li a:link,
 .footer-nav li a:visited,
-.social-links li a:link, 
+.social-links li a:link,
 .social-links li a:visited {
     text-decoration: none;
     border: 0;
@@ -534,34 +536,34 @@ footer {
 
 .footer-nav li a:hover,
 .footer-nav li a:active,
-.social-links li a:hover, 
+.social-links li a:hover,
 .social-links li a:active {
     text-decoration: none;
     border: 0;
     color: #fff;
 }
 
-.social-links li a:link, 
+.social-links li a:link,
 .social-links li a:visited {
     font-size: 150%;
 }
 
-.ion-social-facebook:hover, 
+.ion-social-facebook:hover,
 .ion-social-facebook:active {
     color: #3b5998;
 }
 
-.ion-social-instagram:hover, 
+.ion-social-instagram:hover,
 .ion-social-instagram:active {
     color: #517fa4;
 }
 
-.ion-social-googleplus:hover, 
+.ion-social-googleplus:hover,
 .ion-social-googleplus:active {
     color: #dd4b39;
 }
 
-.ion-social-twitter:hover, 
+.ion-social-twitter:hover,
 .ion-social-twitter:active {
     color: #00aced;
 }
