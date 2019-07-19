@@ -221,6 +221,16 @@ header {
     margin: 20px 0px;
 }
 
+.logo-black {
+    display: none;
+    height: 50px; 
+    width: auto;
+    float: left;
+    margin: 5px 0;
+}
+
+/* Main Navigation */
+
 .main-nav {
     float: right;
     list-style: none;
@@ -248,6 +258,27 @@ header {
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
 }
+
+/* Sticky Navigation */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px #efefef;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    color: #555;
+    padding: 10px 0px;
+}
+
+.sticky .logo-black { display: block; }
+.sticky .logo { display: none; }
+.sticky .main-nav { margin-top: 18px; }
 
 /* ---------------------- */
 /* Features */
