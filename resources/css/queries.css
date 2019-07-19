@@ -8,8 +8,6 @@
     .row {
         padding: 0 2%;
     }
-
-
 }
 
 
@@ -133,7 +131,6 @@
         font-size: 120%;
     }
 }
-
 
 /* Small phones from 0 to 480px, like the iPhone 4 */
 @media only screen and (max-width: 480px) {
