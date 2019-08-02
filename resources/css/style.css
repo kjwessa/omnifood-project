@@ -223,7 +223,7 @@ header {
 
 .logo-black {
     display: none;
-    height: 50px; 
+    height: 50px;
     width: auto;
     float: left;
     margin: 5px 0;
@@ -277,9 +277,17 @@ header {
     padding: 10px 0px;
 }
 
-.sticky .logo-black { display: block; }
-.sticky .logo { display: none; }
-.sticky .main-nav { margin-top: 18px; }
+.sticky .logo-black {
+    display: block;
+}
+
+.sticky .logo {
+    display: none;
+}
+
+.sticky .main-nav {
+    margin-top: 18px;
+}
 
 /* ---------------------- */
 /* Features */
@@ -621,4 +629,20 @@ footer p {
     color: #888;
     text-align: center;
     margin-top: 30px;
+}
+
+/* ---------------------- */
+/* Animations */
+/* ---------------------- */
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3 {
+    opacity: 0;
+}
+
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated {
+    opacity: 1;
 }
