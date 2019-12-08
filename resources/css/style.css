@@ -395,7 +395,7 @@ header {
     width: 50px;
     padding: 5px;
     text-align: center;
-    float: left;
+    /*float: left; */
     font-size: 150%;
     margin-right: 25px;
 }
